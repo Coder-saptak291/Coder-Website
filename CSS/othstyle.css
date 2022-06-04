@@ -1,0 +1,205 @@
+#home::before {
+
+    content: "";
+    background: url('https://cdn.pixabay.com/photo/2021/08/04/13/06/software-developer-6521720_960_720.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    /* bottom: 0px; */
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+
+}
+
+p {
+    font-size: 1.66rem;
+    font-family: serif;
+    color: white;
+    margin: 0vh 3.2vw;
+}
+
+#navbar ul {
+    display: flex;
+    /* display: block; */
+    margin: auto;
+}
+
+#navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    height: 71px;
+    margin: 10px;
+
+
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a {
+    color: white;
+    display: block;
+    padding: 8px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+    margin: 0px 22px;
+}
+
+#navbar ul li a:hover {
+    color: grey;
+    background-color: white;
+}
+
+.header {
+    font-size: 2.66rem;
+    color: white;
+}
+
+.center {
+    text-align: center;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    padding: 9px 20px;
+    margin: 2vh 4vw;
+    text-align: center;
+}
+
+.py {
+    font-size: 1.44rem;
+}
+
+#pyfooter {
+    margin: 0vh 4vw;
+    margin-top: 18vh;
+}
+
+#jfooter {
+    margin: 0vh 4vw;
+    margin-top: 18vh;
+}
+
+#cfooter {
+    margin: 0vh 4vw;
+    margin-top: 40vh;
+}
+
+#wfooter {
+    margin: 0vh 4vw;
+    margin-top: 32vh;
+}
+
+#dfooter {
+    margin: 0vh 4vw;
+    margin-top: 30vh;
+}
+
+@media only screen and (max-width:1100px) {
+    #cppfooter {
+        margin: 0vh 4vw;
+        margin-top: 30vh;
+    }
+
+    #dfooter {
+        margin: 0vh 4vw;
+        margin-top: 30vh;
+    }
+
+    #wfooter {
+        margin-top: 55vh;
+    }
+
+    .c {
+        font-size: 0.57rem;
+    }
+
+    #cfooter {
+        margin-top: 68vh;
+    }
+
+    #pyfooter {
+        /* margin: 0vh 4vw; */
+        margin-top: 9vh;
+    }
+
+    #jfooter {
+        margin: 0vh 4vw;
+        margin-top: 63vh;
+    }
+
+    footer {
+        bottom: 0px;
+        margin-bottom: 0px;
+    }
+
+    .footer {
+        text-align: center;
+        height: fit-content;
+        /* width: 100vw; */
+        font-size: 0.41rem;
+        background-color: black;
+        color: white;
+        bottom: 0px;
+        margin-bottom: 0px;
+    }
+
+    .header {
+        font-size: 1.66rem;
+        color: white;
+    }
+
+    p {
+        font-size: 0.37rem;
+        /* font-family: serif;
+color: white; */
+        margin: 0vh 1.5vw;
+    }
+
+    .py {
+        font-size: 0.77rem;
+    }
+
+    #navbar {
+        display: flex;
+        align-items: center;
+        position: sticky;
+        /* top: 0px; */
+        height: 21px;
+        margin: 10px;
+    }
+
+    #navbar ul li a {
+        font-size: 0.6rem;
+        padding: 0px 2px;
+        /* padding-bottom: 8px; */
+        margin: 0 6px;
+    }
+
+    nav {
+        padding: 9px;
+    }
+}
